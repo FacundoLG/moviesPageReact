@@ -1,10 +1,11 @@
 import React from 'react'
 import '../assets/components/inputs.css'
+import { BsSearch } from 'react-icons/bs'
 const Inputs = () => {
     return (
         <div className="Inputs">
             <input type="text" />
-            <button>"lupa"</button>
+            <button><BsSearch className="icon" /></button>
         </div>
     )
 }

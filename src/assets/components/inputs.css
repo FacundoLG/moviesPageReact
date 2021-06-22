@@ -7,6 +7,7 @@
     min-width: 300px;
     border-radius: 18px;
     border: 2px solid var(--main-nav-bg-color);
+    padding: 0px;
 }
 
 .Inputs input{
@@ -18,10 +19,16 @@
     padding: 0px 10px;
     font-size: 16px;
 }
-
+button .icon{
+    color: #000;
+    font-size: 16px;
+}
 .Inputs button{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
-    padding: 0px 4px;
     background: none;
     border: none;
     border-left: solid 1px #000;
