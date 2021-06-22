@@ -1,0 +1,16 @@
+.Home{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--main-nav-bg-color);
+}
+.inputContainer{
+    position: relative;
+    top: -19px;
+}
+.moviesManager{
+    display: flex;
+    min-height: 800px;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: var(--main-nav-bg-color);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.6);
+    height: 60px;
+}

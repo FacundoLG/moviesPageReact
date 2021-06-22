@@ -1,0 +1,28 @@
+.Inputs{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 50vw;
+    height: 38px;
+    min-width: 300px;
+    border-radius: 18px;
+    border: 2px solid var(--main-nav-bg-color);
+}
+
+.Inputs input{
+    width: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.Inputs button{
+    color: black;
+    padding: 0px 4px;
+    background: none;
+    border: none;
+    border-left: solid 1px #000;
+}
